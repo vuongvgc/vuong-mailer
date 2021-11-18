@@ -4,7 +4,8 @@ const app = express();
 // Router handle
 app.get("/", (req, res) => {
   res.send({
-    hi: "Hi there",
+    status: "success",
+    message: "Hi there, you ara logined",
   });
 });
 const PORT = process.env.PORT || 5000;
